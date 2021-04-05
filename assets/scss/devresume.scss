@@ -1,4 +1,4 @@
-/*! 
+/*!
  * Template Name: DevResume - Bootstrap 4 Resume/CV Template for Software Developers
  * Version: 1.2
  * Author: Xiaoying Riley
@@ -28,8 +28,8 @@ $gray-800: lighten($theme-text-color-primary, 10%);
 $gray-900: $theme-text-color-primary;
 
 $theme-colors: (
-  "primary":  $theme-color-primary, 
-  "secondary":  $theme-text-color-secondary, 
+  "primary":  $theme-color-primary,
+  "secondary":  $theme-text-color-secondary,
 );
 
 /*************************** Import Bootstrap  *****************************/
@@ -39,11 +39,11 @@ $theme-colors: (
 /*************************** DevResume Styles ****************************/
 
 /*********** Theme Generic **********/
-body { 
+body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: $theme-text-color-secondary;
-    
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,7 +67,7 @@ a.theme-link {
 	font-weight: bold;
 	padding: .375rem 1rem;
 	height: 2.5rem;
-	font-size: 1rem;
+	font-size: 1.25rem;
 }
 
 .btn:focus, .btn.focus {
@@ -113,7 +113,7 @@ a.theme-link {
 	font-weight: 900;
 	letter-spacing: 0.4rem;
 	color: $theme-color-primary;
-	
+
 }
 
 .resume-tagline {
@@ -142,9 +142,11 @@ a.resume-link {
 }
 .resume-main {
 	.item-title {
-		font-size: 1rem;
+		font-size: 1.25rem;
 	}
-	
+	 .project-item-title {
+		 font-size: 1rem;
+	 }
    .item-meta {
 	   font-size: 0.75rem;
    }
@@ -159,9 +161,9 @@ a.resume-link {
 		font-size: 0.875rem;
 	}
 	.item-title {
-		font-size: 1rem;
+		font-size: 1.25rem;
 	}
-	
+
 }
 
 
@@ -202,7 +204,7 @@ a.resume-link {
 	    border-left: 0;
     }
 }
-    
+
 
 
 
